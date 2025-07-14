@@ -37,3 +37,7 @@ If you find this repository useful, please consider citing Myopic-Net paper:
 ```
 Coming soon!
 ```
+
+## Acknowledgments
+
+Parts of this code were derived from [NVIDIA/flownet2-pytorch](https://github.com/NVIDIA/flownet2-pytorch).
