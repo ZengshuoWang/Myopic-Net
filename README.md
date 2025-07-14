@@ -18,4 +18,14 @@ This code is developed on Python 3.8.5 and Pytorch 1.8.0 with NVIDIA GPUs. Train
 ```shell
 pip install -r requirements.txt
 ```
-3. 
+
+3. Because we choose FlowNetCorr as the backbone of Myopic-Net, which comes from the outstanding work ["FlowNet"](https://doi.org/10.1109/ICCV.2015.316). You should follow the instruction of the [pytorch implementation](https://github.com/NVIDIA/flownet2-pytorch) to ensure that FlowNetCorr can run properly. And there are mainly two steps:
+
+(1)
+```shell
+cd Myopic-Net
+bash install.sh
+```
+(2) Download the pre-trained model "FlowNet2-C[149MB]", and place it in the "models" folder.
+
+4. 
